@@ -8,38 +8,53 @@
       <title> ITMD-362 Internet Technologies &amp; Web Design </title>
    </head>
    <body>
-      <div class="header">
+<body>
+
+<div class="header">
          <h1>Ayobami IT Solutions</h1>
       </div>
+      <div class = navigation bar
+      <ul>
+
+<div class="row">
+  <div class="col-3 menu">
       <ul>
          <li><a class= "active" href= "XXX.html">Navigation1</a></li>
-         <li><a href= "XXX.html">Nav2igation</a></li>
+         <li><a href= "XXX.html">Navigation2</a></li>
          <li><a href= "XXX.html">Navigation3</a></li>
          <li><a href= "XXX.html">Navigation4</a></li>
       </ul>
-      <fieldset>
+  </div>
+
+  <fieldset>
          <form>
             <p>Thank you for choosing Ayobami IT Solutions. Please enter intake data for consultaion confirmation.</p>
             <!--Company Name-->
-            <div class ="enterprisename">
+            <div class ="col -6">
                <label>Enterprise Name: </label>
                <input type = "text" name ="enterprisename" placeholder="Enterprise Name">
             </div>
-            <!--name-->
-            <div class ="contactname">
-               <input type = "text" name ="contactname" placeholder="First name Last name">
+            <!--prefix and name selection-->
+            <div class ="col -6">
+              <label>Contact Name:</label>
+              <select name="prefix">
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+                <option value="ms">Ms</option>
+              </select>
+              <input type = "text" name ="contactname" placeholder="First name Last name">
             </div>
-            <div class = "email">
+            <div class = "col -6">
                <label>Email Address: </label>
                <input type = "email" name ="email" placeholder="accountname@domain.com">
             </div>
             <!--phone number-->
-            <div class = "contactnumber">
+            <div class = "col -6">
                <label>Phone Number: </label>
                <input type = "tel" name ="contactnumber" placeholder="(000) 000-0000 ">
             </div>
             <!--DOB-->
-            <div class="dateofbirth">
+            <div class="col -6">
                <label>Date of Birth: </label>
                <input type="text" name="dateofbirth" placeholder="MM/DD/YYYY">
             </div>
@@ -47,18 +62,23 @@
             <input type="submit" value="Confirm Appointment>>">
          </form>
       </fieldset>
-      <div class="cuteboxy">
-         <div class="aside">
-            <h2>What?</h2>
+
+  <div class="col-3 right">
+    <div class="aside">
+     <h2>What?</h2>
             <p>Ayobami IT Consultiations has the tools to help transform your business</p>
             <h2>Where?</h2>
             <p>Based out of Ayobami's dorm room in Chicago, IL, but we can reach clients all over the world.</p>
             <h2>How?</h2>
-            <p>Data is a transformative tool for all businesses. Find out how Ayobami IT Consultations can use this to turn boost your metrics. </p>
-         </div>
-      </div>
-      <div class="footer">
-         <p>Contact us for more information at: xxxxxxxxxx@ayobamiITSolutions | (123)456-7890 | Chicago, IL</p>
-      </div>
-   </body>
+            <p>Data is a transformative tool for all businesses. Find out how Ayobami IT Consultations can use this to  boost your metrics. </p>
+        
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Contact us for more information at: xxxxxxxxxx@ayobamiITSolutions | (123)456-7890 | Chicago, IL</p>
+    
+</div>
+</body>
 </html>
