@@ -1,0 +1,82 @@
+body {
+  background-color: #A9A9A9;
+  font-family: verdana;
+}
+
+/*.bg {
+  background-image: url("crfreetechimg.jpg");
+	background-position: center;
+	height: 100%; background-repeat: no-repeat;
+}
+*/
+h1{
+	color: white;
+	text-align: left;
+	font-size: 45px;
+}
+div{
+	color: white;
+	text-align: left;
+	font-size:15px;
+}
+p{
+	color: white;
+	text-align: left;
+	font-size:15px;
+}
+select {
+  width: 20%;
+font-size:10px;
+  padding: 4px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+input{
+	display:block;
+	text-align: left;
+	font-size:10px;
+	border:1.5px solid red;
+	border-radius: 4px
+}
+label {
+	display: block;
+	margin-top: 15px;
+}
+/* When screen<600px*/
+@media screen and (max-width: 600px) {
+input{
+	display:block;
+	text-align: left;
+	font-size:10px;
+	border:1.5px solid red;
+	border-radius: 4px
+}
+label {
+	display: block;
+	margin-top: 15px;
+}
+body {
+  background-color: #A9A9A9;
+  font-family: verdana;
+}
+}
+
+/* When screen<990px*/
+@media screen and (max-width: 900px) {
+input{
+	display:block;
+	text-align: left;
+	font-size:10px;
+	border:1.5px solid red;
+	border-radius: 4px
+}
+label {
+	display: block;
+	margin-top: 15px;
+}
+body {
+  background-color: #A9A9A9;
+  font-family: verdana;
+}
+}
