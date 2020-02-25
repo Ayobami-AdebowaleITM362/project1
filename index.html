@@ -27,7 +27,7 @@
   </div>
 
   <fieldset>
-         <form>
+         <form name="appt_form" onsubmit="validateForm">
             <p>Thank you for choosing Ayobami IT Solutions. Please enter intake data for consultaion confirmation.</p>
             <!--Company Name-->
             <div class ="col -6">
@@ -42,7 +42,7 @@
                 <option value="mrs">Mrs.</option>
                 <option value="ms">Ms</option>
               </select>
-              <input type = "text" name ="contactname" placeholder="First name Last name">
+              <input type = "text" name ="contactname" placeholder="First name Last name" method ="get">
             </div>
             <div class = "col -6">
                <label>Email Address: </label>
@@ -59,7 +59,7 @@
                <input type="text" name="dateofbirth" placeholder="MM/DD/YYYY">
             </div>
             <!--submit form-->
-            <input type="submit" value="Confirm Appointment>>">
+            <input type="submit" value="Confirm Appointment>>" onClick="readText(this.form)>
          </form>
       </fieldset>
 
