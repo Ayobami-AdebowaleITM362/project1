@@ -1,8 +1,22 @@
-function readText (form) {
+function validatetextForm() {
+var a = document.forms["apptsignup"]["enterprisename"].value;
+var b = document.forms["apptsignup"]["contactname"].value;
+var c = document.forms["apptsignup"]["enterprisename"].value;
+var d = document.forms["apptsignup"]["contactname"].value;
+var e = document.forms["apptsignup"]["enterprisename"].value;
+if (a == "" || b == "" || c == "" || d == "" || e == "") {
+alert("Fields cannot be empty.");
+return false;
+else {
+alert("You will be receiving a confirmation email for our waitlist.")
+return true;
+}  
+}
+  /*function readText (form) {
     TestVar =form.inputbox.value;
     alert ("You have entered the following information: " + TestVar);
 }
-/*Date is in MM/DD/YYY*/
+/*Date is in MM/DD/YYY
 function checkdate()
 {
   var dateformat = /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/;
@@ -63,7 +77,7 @@ function checkdate()
   return false;
   }
   }
-/*enterprise name and name selection*/
+/*enterprise name and name selection
 function validatetextForm() {
   var a = document.forms["apptsignup"]["enterprisename"].value;
   var b = document.forms["apptsignup"]["contactname"].value;
@@ -77,7 +91,7 @@ function validatetextForm() {
   }  
 }
     
- /*email validation*/
+ /*email validation
  function ValidateEmail(inputText)
 {
 var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -92,3 +106,4 @@ alert("You have entered an invalid email address!");
 document.forms["apptsignup"]["email"].value;
 return false;
 }
+*/
