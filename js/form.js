@@ -91,19 +91,4 @@ function validatetextForm() {
   }  
 }
     
- /*email validation
- function ValidateEmail(inputText)
-{
-var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-if(inputText.value.match(mailformat))
-{
-document.forms["apptsignup"]["email"].value;
-return true;
-}
-else
-{
-alert("You have entered an invalid email address!");
-document.forms["apptsignup"]["email"].value;
-return false;
-}
-*/
+ /*email validation is inbuilt function*/
