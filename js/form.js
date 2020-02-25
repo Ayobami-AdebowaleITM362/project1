@@ -12,7 +12,7 @@ alert("You will be receiving a confirmation email for our waitlist.")
 return true;
 }  
 }
-function readText (form) {
+function readText() {
     TestVar =form.inputbox.value;
     alert ("You have entered the following information: " + TestVar);
 }
