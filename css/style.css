@@ -17,7 +17,7 @@ html {
   background-color: #581845;
   text-align: center;
   color: #ffffff;
-  padding: 10px;
+  padding: 20px;
 }
 
 
@@ -55,7 +55,7 @@ margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #484848;
-line-height: 2em;
+line-height: 5px;
 border: 5px inset red;
 }
 
@@ -67,7 +67,7 @@ li a {
 display: block;
 color: red;
 text-align: center;
-padding: 0.4em .5em;
+padding: 5px 5px;
 line-height: 1.5em;
 text-decoration: none;}
 
@@ -76,7 +76,7 @@ background-color: #ffffff;
 line-height: 2em;
 }
 
-/* Computer/ desktop */
+/* Computer desktop */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
