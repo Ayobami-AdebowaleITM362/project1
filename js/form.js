@@ -6,13 +6,13 @@ var d = document.forms["apptsignup"]["contactname"].value;
 var e = document.forms["apptsignup"]["enterprisename"].value;
 if (a == "" || b == "" || c == "" || d == "" || e == "") {
 alert("Fields cannot be empty.");
-return false;
+return false;}
 else {
 alert("You will be receiving a confirmation email for our waitlist.")
 return true;
 }  
 }
-  /*function readText (form) {
+function readText (form) {
     TestVar =form.inputbox.value;
     alert ("You have entered the following information: " + TestVar);
 }
