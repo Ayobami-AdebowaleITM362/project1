@@ -1,3 +1,12 @@
+.backgruondimage {
+  background-image: url(royalty_free_yaroslav_pavlov.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* rescale based on container's size */
+  background-size: cover;
+}
+
 .row::after {
   content: "";
   clear: both;
