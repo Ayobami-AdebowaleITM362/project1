@@ -1,10 +1,9 @@
 function validatetextForm() {
-var a = document.forms["apptsignup"]["enterprisename"].value;
-var b = document.forms["apptsignup"]["contactname"].value;
-var c = document.forms["apptsignup"]["email"].value;
-var d = document.forms["apptsignup"]["contactnumber"].value;
-var e = document.forms["apptsignup"]["dateofbirth"].value;
-if (a == "" || b == "" || c == "" || d == "" || e == "") {
+var a = document.forms["apptsignup"]["contactname"].value;
+var b = document.forms["apptsignup"]["email"].value;
+var c = document.forms["apptsignup"]["contactnumber"].value;
+var d = document.forms["apptsignup"]["dateofbirth"].value;
+if (a == "" || b == "" || c == "" || d == "") {
 alert("Fields cannot be empty.");
 return false;}
 else {
