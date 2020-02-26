@@ -1,4 +1,3 @@
-@media screen and (min-width: 375px) {
 .backgruondimage {
   background-image: url(royalty_free_yaroslav_pavlov.jpg);
   background-position: center center;
@@ -8,6 +7,7 @@
   background-size: cover;
 }
 
+@media screen and (min-width: 375px) {
 .row::after {
   content: "";
   clear: both;
