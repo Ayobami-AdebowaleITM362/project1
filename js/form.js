@@ -1,8 +1,8 @@
 function validatetextForm() {
-var a = document.forms["apptsignup"]["contactname"].value;
-var b = document.forms["apptsignup"]["email"].value;
-var c = document.forms["apptsignup"]["contactnumber"].value;
-var d = document.forms["apptsignup"]["dateofbirth"].value;
+var a = document.forms["waitlist"]["contactname"].value;
+var b = document.forms["waitlist"]["email"].value;
+var c = document.forms["waitlist"]["contactnumber"].value;
+var d = document.forms["waitlist"]["dateofbirth"].value;
 if (a == "" || b == "" || c == "" || d == "") {
 alert("Fields cannot be empty.");
 return false;}
@@ -76,18 +76,4 @@ function checkdate()
   return false;
   }
   }
-/*enterprise name and name selection
-function validatetextForm() {
-  var a = document.forms["apptsignup"]["enterprisename"].value;
-  var b = document.forms["apptsignup"]["contactname"].value;
-  if (a == "" || b == "" ) {
-    alert("Fields cannot be empty.");
-    return false;
-
-  else {
-    alert("You are now Signed-up in")
-    return true;
-  }  
-}
-    
  /*email validation is inbuilt function*/
