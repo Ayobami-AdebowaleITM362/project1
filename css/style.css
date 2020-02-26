@@ -60,7 +60,6 @@ border: 5px inset red;
 }
 
 li {
-  float: center;
 }
 
 li a {
@@ -121,5 +120,4 @@ label {
 body {
   background-color: #CAC7C8;
   font-family: verdana;
-}
 }
