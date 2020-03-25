@@ -1,11 +1,11 @@
-/*.backgroundimage {*/
+backgroundimage {
   background-image: url("media/royalty_free_yaroslav_pavlov.jpg");
-/*  background-position: center center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   /* rescale based on container's size */
   background-size: cover;
-}*/
+}
 
 @media screen and (min-width: 375px) {
 .row::after {
